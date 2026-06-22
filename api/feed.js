@@ -12,6 +12,11 @@ const FEEDS = {
     url: "http://libwww.freelibrary.org/rss/rss.cfm",
     type: "rss",
   },
+  uwishunu: {
+    url: "https://www.visitphilly.com/feed/uwishunu",
+    type: "rss",
+  },
+};
   // --- Add more here once you verify the URL returns XML/ICS in a browser. ---
   // Examples of likely-working patterns (VERIFY before trusting):
   // visitphilly:  { url: "https://www.visitphilly.com/events/?ical=1", type: "ics" },

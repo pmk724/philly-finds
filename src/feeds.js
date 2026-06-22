@@ -13,6 +13,15 @@ export const FEED_SOURCES = [
     lat: 39.9596,
     lng: -75.171,
   },
+  {
+    key: "uwishunu",
+    label: "Uwishunu",
+    type: "rss",
+    defaultCat: "food",
+    where: "Philadelphia",
+    lat: 39.9526,
+    lng: -75.1652,
+  },
   // Add more sources here as you verify them in /api/feed.js.
   // {
   //   key: "visitphilly",
